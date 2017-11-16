@@ -7,7 +7,7 @@ Maintainer: Niko Partanen <nikotapiopartanen@gmail.com>
 Description: This package contains Public Domain data from Uralic languages.
     Currently only from Komi-Zyrian, but in near future we should be able to include more.
     Demand for data that is in Public Domain should be kept very strict, but in principle different data types are very welcome.
-License: Public Domain
+License: Data: Public Domain / R Package: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1

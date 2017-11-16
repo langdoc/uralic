@@ -1,10 +1,10 @@
 #' Public Domain Komi-Zyrian data
 #'
-#' A dataset containing 877685 tokens from Public Domain sources.
+#' A dataset containing 78897 sentences from Public Domain sources.
 #' Digitalized in Fenno-Ugrica and proofread in FU-Lab.
 #' Ivan Belykh's works made available by the author.
 #'
-#' @format Data frame with 877685 tokens
+#' @format Data frame with 78897 sentences.
 #' \describe{
 #'   \item{sentence_id}{sentence id, unique within a text}
 #'   \item{sentence}{sentence text}
