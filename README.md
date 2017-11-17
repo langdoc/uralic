@@ -1,4 +1,4 @@
-## Public Domain data on Uralic Languages
+# Public Domain data on Uralic Languages
 
 This is an R data package that contains data in Uralic languages which are in Public Domain. Individual datasets are documented within the package. Currently there is data only from Komi-Zyrian, and the whole setup is experimental.
 
@@ -8,6 +8,10 @@ Please notice that even when using Public Domain data, citing the sources used i
 
 Please do not refer to this package before the author(s) add more information about its intended use to part below.
 
-## Citation
+# Citation
 
 Coming soon
+
+# Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
