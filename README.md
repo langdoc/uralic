@@ -1,10 +1,10 @@
-# Public Domain data on Uralic Languages
+# Public Domain Corpus Data from Uralic Languages
 
-This is an R data package that contains data in Uralic languages which are in Public Domain. Individual datasets are documented within the package. Currently there is data only from Komi-Zyrian, and the whole setup is experimental.
+This is an R data package that contains corpus data from Uralic languages which are in the Public Domain. Individual subsets of the data are documented within the package.
 
-This package is on extremely early stage and it is  not yet supposed to be used in actual research. In near future it will provide clear convention to cite individual resources used. 
+This package is in an extremely early testing stage and it is not yet supposed to be used in actual research. Currently there is data only from Komi-Zyrian, and the whole setup is experimental. But in the near future we intend to provide more data and explicit documentation how to use and cite the whole data set or individual resources.
 
-Please notice that even when using Public Domain data, citing the sources used is clearly demanded by good scientific practice. The difference of Public Domain data to virtually any other data source is that the citation is not demanded from legal perspective, and can be justified and rationalized by what is reasonable.
+Please notice that providing proper references to the sources used is clearly demanded by good scientific practice, even when using Public Domain data. The difference between Public Domain data and virtually any other data source is that the citation is not demanded from a legal perspective, and can be justified and rationalized by what is reasonable.
 
 Please do not refer to this package before the author(s) add more information about its intended use to part below.
 
