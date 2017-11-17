@@ -8,7 +8,7 @@ This package is in an extremely early testing stage and it is not yet supposed t
 
 Please notice that providing proper references to the sources used is clearly demanded by good scientific practice, even when using Public Domain data. The difference between Public Domain data and virtually any other data source is that the citation is not demanded from a legal perspective, but can and should be justified and rationalized by what is reasonable.
 
-Niko Partanen, Michael Rießler, Joshua Wilbur (2017). Public Domain Corpus Data for Uralic Languages. R data package. Version 0.1.0. https://github.com/langdoc/uralic/.
+Niko Partanen, Michael Rießler, Joshua Wilbur (2017). *Public Domain Corpus Data for Uralic Languages.* R data package. Version 0.1.0. https://github.com/langdoc/uralic/.
 
 Explanations how to cite single example sentences or larger subsets of the data are coming soon.
 
