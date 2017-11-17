@@ -4,7 +4,7 @@ Data subsets are devided according to single languages or language pairs, which 
 
 ## hun
 
-Hungarian translations of Pite Saami spoken texts collected by Halász. [Ignác Halász](https://hu.wikipedia.org/wiki/Hal%C3%A1sz_Ign%C3%A1c).
+Hungarian translations of Pite Saami spoken texts collected by [Ignác Halász](https://hu.wikipedia.org/wiki/Hal%C3%A1sz_Ign%C3%A1c).
 
 ## kpv
 
@@ -17,7 +17,7 @@ Komi-Zyrian. The texts were digitalized by the Fennougrica project, proofread bu
 
 ## sia-sms
 
-Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) (Akkala) and [Konstantin Ščekoldin][https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87) (Skolt)
+Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) (Akkala) and [Konstantin Ščekoldin](https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87) (Skolt)
 
 ## sjd
 
@@ -26,7 +26,7 @@ Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) 
 
 ## sjd-sms
 
-Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) (Akkala) and [Konstantin Ščekoldin][https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87) (Skolt)
+Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) (Akkala) and [Konstantin Ščekoldin](https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87) (Skolt)
 
 ## sje-hun
 
@@ -35,7 +35,7 @@ Pite Saami spoken texts with Hungarian translations collected and published by [
 ## sms
 
 * Skolt Saami spoken texts collected and published by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz). The texts were digitalized by the Kola Saami Documentation Project.
-* Gospel of Matthew by [Konstantin Ščekoldin][https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87)
+* Gospel of Matthew by [Konstantin Ščekoldin](https://ru.wikipedia.org/wiki/%D0%A9%D0%B5%D0%BA%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD,_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D1%8C%D0%B5%D0%B2%D0%B8%D1%87)
 
 ## sjt
 
