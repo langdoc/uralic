@@ -1,4 +1,4 @@
-# Data Statistics and brief explanations
+# Data Statistics and Brief Explanations
 
 Data subsets are devided according to single languages or language pairs, which are labeled with the respective ISO code.
 
