@@ -1,6 +1,6 @@
 # Public Domain Corpus Data for Uralic Languages, v. 0.1.0
 
-This is an R data package that contains text corpus data from Uralic languages which are in the Public Domain. Individual subsets of the data are documented within the package. Hera are [statistics and brief explanations](https://github.com/langdoc/uralic/STATISTICS.md) for the included subsets. 
+This is an R data package that contains text corpus data from Uralic languages which are in the Public Domain. Individual subsets of the data are documented within the package. Hera are [statistics and brief explanations](https://github.com/langdoc/uralic/blob/master/STATISTICS.md) for the included subsets. 
 
 This package is in an extremely early testing stage and it is not yet supposed to be used in actual research. Currently there is data only from Komi-Zyrian, and the whole setup is experimental. But in the near future we intend to provide more data from additional languages (such as from Pite Saami) and explicit documentation concerning how to use and cite the whole data set or individual resources.
 
