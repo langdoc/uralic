@@ -1,4 +1,4 @@
-# Data Statistics and Brief Explanations
+# Planned datasets
 
 Data subsets are devided according to single languages or language pairs, which are labeled with the respective ISO code.
 
