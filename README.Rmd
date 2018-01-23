@@ -29,15 +29,17 @@ devtools::install_github("langdoc/uralic")
 
 ## Example
 
-```
+```{r}
 library(tidyverse)
 library(uralic)
 
 uralic::kpv %>% 
     as_tibble() %>%
-    filter(str_detect(kpv, "станция"))
+    filter(str_detect(sentence, "станция")) %>% 
+    select(sentence)
 
 ```
+
 
 ## Citation
 

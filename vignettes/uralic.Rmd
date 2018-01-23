@@ -1,0 +1,34 @@
+---
+title: "Public Domain data for Uralic languages"
+author: "Niko Partanen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This document explores some potential ways to use the data in `uralic` R package. The idea has been to collect into one data package Public Domain data, and organise it in a way that makes it easy to use this data for varying purposes. At the moment it is not at all clear what is the ideal structure, so this documentation will also keep changing constantly, with hope that the solutions stabilize in some point.
+
+## Using the package's data
+
+At the moment the package contains only data that is either stored on document or sentence level.
+
+… explanation continues here …
+
+## Using R in linguistic research
+
+… explanation and examples here …
+
+## Compability of datasets
+
+I'm thinking that the sentences which have parallel variant in some of the other corpora would share an ID, or part of it, but this is bit unclear how to do it the best. Some of the materials in this package are also present in other databases, such as currently emerging UD corpus for Komi-Zyrian. The idea is to use common ID's as mechanism to join data together from different sources. Something like this is probably necessary, since it is important not to introduce into Public Domain corpus data that is licensed otherwise.
+
