@@ -80,7 +80,7 @@
 #' @source \url{http://urn.fi/URN:NBN:fi-fe2014091844781}
 "mhr"
 
-#' Public Domain Meadow Mari data
+#' Public Pite Saami data
 #'
 #' sje18930000-halasz1893a-22
 #' (public domain; digitized, transcribed and annotated

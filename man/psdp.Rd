@@ -3,7 +3,7 @@
 \docType{data}
 \name{psdp}
 \alias{psdp}
-\title{Public Domain Meadow Mari data}
+\title{Public Pite Saami data}
 \format{Example of digitalized Pite Saami data
 \describe{
   \item{doc_id}{name of the text in original corpus}

@@ -2,7 +2,9 @@ Package: uralic
 Type: Package
 Title: Public Domain Uralic Languages
 Version: 0.1.2
-Author: Niko Partanen
+Authors@R: c(person("Niko", "Partanen", role = c("aut", "cre"), email = "nikotapiopartanen@gmail.com"),
+             person("Joshua", "Wilbur", email = "joshua.wilbur@skandinavistik.uni-freiburg.de", role = "aut"),
+             person("Michael", "Rießler", email = "michael.riessler@uni-bielefeld.de", role = "aut"))
 Maintainer: Niko Partanen <nikotapiopartanen@gmail.com>
 Description: This package contains Public Domain data from Uralic languages.
     Currently only from Komi-Zyrian, but in near future we should be able to include more.
