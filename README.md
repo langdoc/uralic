@@ -14,7 +14,7 @@ Niko Partanen, Michael Rießler, Joshua Wilbur (2018). *Public Domain Corpus Dat
 
 Explanations how to cite single example sentences or larger subsets of the data are coming soon. Ideally there would be an R function that would spill out citations by id. Individual books will likely have several sources that would be important to cite, among these the original collection of the [National Library of Finland](https://fennougrica.kansalliskirjasto.fi/). Individual book sitations will look something like this.
 
-> Успенский, Л 1939 Ныл боевой случай. Москва:Молодежын Всесоюзный Ленинский Коммунистический Союзшын Центральный Комитетше: Йоча Литератур издательство. URN: http://urn.fi/URN:NBN:fi-fe2014091844781
+> Успенский, Л 1939 Ныл боевой случай. Москва: Молодежын Всесоюзный Ленинский Коммунистический Союзшын Центральный Комитетше: Йоча Литератур издательство. URN: http://urn.fi/URN:NBN:fi-fe2014091844781
 
 Of course, as this is Public Domain data, the exact data citation can be rationalized case by case basis.
 
