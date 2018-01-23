@@ -30,13 +30,14 @@ devtools::install_github("langdoc/uralic")
 ## Example
 
 ```{r}
-library(tidyverse)
+library(tidyverse, warn.conflicts = FALSE)
 library(uralic)
 
 uralic::kpv %>% 
     as_tibble() %>%
     filter(str_detect(sentence, "станция")) %>% 
-    select(sentence)
+    select(sentence) %>%
+  knitr::kable()
 
 ```
 

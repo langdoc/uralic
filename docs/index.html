@@ -31,7 +31,7 @@
 <li>
   <a href="index.html">
     <span class="fa fa-home fa-lg"></span>
-     
+
   </a>
 </li>
 <li>
@@ -48,7 +48,7 @@
 <li>
   <a href="https://github.com/langdoc/uralic">
     <span class="fa fa-github fa-lg"></span>
-     
+
   </a>
 </li>
       </ul>
@@ -59,13 +59,13 @@
 </div>
 <!--/.navbar -->
 
-      
+
       </header><div class="row">
   <div class="col-md-9">
-    
 
-    
-    
+
+
+
 <div class="contents">
 <section id="public-domain-data-for-uralic-languages-v.-0.1.2" class="level1"><div class="page-header"><h1>Public Domain Data for Uralic Languages, v. 0.1.2</h1></div>
 
@@ -76,14 +76,67 @@
 <pre class="sourceCode r" id="cb1"><code class="sourceCode r"><div class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></div>
 <div class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"langdoc/uralic"</span>)</div></code></pre>
 </section><section id="example" class="level2"><h2>Example</h2>
-<pre><code>library(tidyverse)
-library(uralic)
-
-uralic::kpv %&gt;% 
-    as_tibble() %&gt;%
-    filter(str_detect(kpv, "станция"))
-</code></pre>
-</section><section id="citation" class="level2"><h2>Citation</h2>
+<pre class="sourceCode r" id="cb2"><code class="sourceCode r"><div class="sourceLine" id="cb2-1" data-line-number="1">
+<span class="kw">library</span>(tidyverse, <span class="dt">warn.conflicts =</span> <span class="ot">FALSE</span>)</div>
+<div class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; ── Attaching packages ───────────────────────────────────── tidyverse 1.2.0 ──</span></div>
+<div class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">#&gt; ✔ ggplot2 2.2.1.9000     ✔ purrr   0.2.4     </span></div>
+<div class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">#&gt; ✔ tibble  1.3.4          ✔ dplyr   0.7.4     </span></div>
+<div class="sourceLine" id="cb2-5" data-line-number="5"><span class="co">#&gt; ✔ tidyr   0.7.2          ✔ stringr 1.2.0     </span></div>
+<div class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">#&gt; ✔ readr   1.1.1          ✔ forcats 0.2.0</span></div>
+<div class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">#&gt; ── Conflicts ──────────────────────────────────────── tidyverse_conflicts() ──</span></div>
+<div class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">#&gt; ✖ dplyr::filter() masks stats::filter()</span></div>
+<div class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">#&gt; ✖ dplyr::lag()    masks stats::lag()</span></div>
+<div class="sourceLine" id="cb2-10" data-line-number="10">
+<span class="kw">library</span>(uralic)</div>
+<div class="sourceLine" id="cb2-11" data-line-number="11"></div>
+<div class="sourceLine" id="cb2-12" data-line-number="12">uralic<span class="op">::</span>kpv <span class="op">%&gt;%</span><span class="st"> </span>
+</div>
+<div class="sourceLine" id="cb2-13" data-line-number="13">
+<span class="st">    </span><span class="kw">as_tibble</span>() <span class="op">%&gt;%</span>
+</div>
+<div class="sourceLine" id="cb2-14" data-line-number="14">
+<span class="st">    </span><span class="kw">filter</span>(<span class="kw">str_detect</span>(sentence, <span class="st">"станция"</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
+</div>
+<div class="sourceLine" id="cb2-15" data-line-number="15">
+<span class="st">    </span><span class="kw">select</span>(sentence) <span class="op">%&gt;%</span>
+</div>
+<div class="sourceLine" id="cb2-16" data-line-number="16">
+<span class="st">  </span>knitr<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/knitr/topics/kable">kable</a></span>()</div></code></pre>
+<table class="table">
+<colgroup><col style="width: 100%"></colgroup>
+<thead><tr class="header">
+<th style="text-align: left;">sentence</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Тайӧ сотчисны кутшӧмкӧ матыса станцияяс, кодъяс ӧзйӧмаӧсь белӧйяс снарядъясысь.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Коймӧд случай вӧлі Воропоново станцияын, неылын сійӧ жӧ Царицынсянь.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Дас кӧкъямысӧд числӧын штабнӧй вагон сійӧс вайис Воропоново станцияӧ.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Неыджыд станцияын сы вӧсна вӧлі полнӧй неразбериха.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Но век жӧ станцияыс эз вӧв дзик фронт вылас.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">И сэн, на сайын, пу увъяс костӧд сійӧ аддзис: сё, кыксё, витсё, он гӧгӧрво мындаӧн белӧйяс мыйвынсьыныс локтӧны станциялань.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Белӧйяс — найӧ вӧлі тыдалӧны кипыдӧс вылын моз — скачитісны овраг дорӧдз, коді воӧ вӧлі степь кузя веськыда станция дорӧ, и ряд бӧрся ряд вошисны сэтчӧ.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Туйыс на водзын беззащитнӧй станцияӧ вӧлі восьса.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Но кӧн жӧ вӧлі станциялӧн охрана?</td>
+</tr>
+</tbody>
+</table></section><section id="citation" class="level2"><h2>Citation</h2>
 <p>Please notice that providing proper references to the sources used is clearly demanded by good scientific practice, even when using Public Domain data. The difference between Public Domain data and virtually any other data source is that the citation is not demanded from a legal perspective, but can and should be justified and rationalized by what is reasonable.</p>
 <p>Niko Partanen, Michael Rießler, Joshua Wilbur (2018). <em>Public Domain Corpus Data for Uralic Languages.</em> R data package. Version 0.1.2. <a href="https://github.com/langdoc/uralic/" class="uri">https://github.com/langdoc/uralic/</a>.</p>
 <p>Explanations how to cite single example sentences or larger subsets of the data are coming soon. Ideally there would be an R function that would spill out citations by id. Individual books will likely have several sources that would be important to cite, among these the original collection of the <a href="https://fennougrica.kansalliskirjasto.fi/">National Library of Finland</a>. Individual book sitations will look something like this.</p>
@@ -101,9 +154,9 @@ uralic::kpv %&gt;%
     <h2 class="hasAnchor">
 <a href="#sidebar" class="anchor"></a>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/langdoc/uralic">https://​github.com/​langdoc/​uralic</a>
+<li>Browse source code at <br><a href="https://github.com/langdoc/uralic">https://github.com/langdoc/uralic</a>
 </li>
-<li>Report a bug at <br><a href="https://github.com/langdoc/uralic/issues">https://​github.com/​langdoc/​uralic/​issues</a>
+<li>Report a bug at <br><a href="https://github.com/langdoc/uralic/issues">https://github.com/langdoc/uralic/issues</a>
 </li>
 </ul>
 <h2>License</h2>
@@ -116,7 +169,7 @@ uralic::kpv %&gt;%
 </ul>
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/langdoc/uralic/blob/master/STATISTICS.md">statistics and brief explanations</a></li>
+<li><a href="https://github.com/langdoc/uralic/blob/master/PLANNED_DATA.md">Planned datasets</a></li>
 </ul>
 </div>
 
