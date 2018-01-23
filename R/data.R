@@ -80,3 +80,21 @@
 #' @source \url{http://urn.fi/URN:NBN:fi-fe2014091844781}
 "mhr"
 
+#' Public Domain Meadow Mari data
+#'
+#' sje18930000-halasz1893a-22
+#' (public domain; digitized, transcribed and annotated
+#' by the Pite Saami Documentation Project (Joshua Wilbur, Iris Perkmann))
+#'
+#' @format Example of digitalized Pite Saami data
+#' \describe{
+#'   \item{doc_id}{name of the text in original corpus}
+#'   \item{sentence_id}{sentence id, unique within a text}
+#'   \item{sentence}{sentence text}
+#'   \item{sentence_eng}{English translation}
+#'   \item{sentence_hun}{Hungarian translation}
+#'   \item{sentence_orig_orth}{Original orthography}
+#'   ...
+#' }
+#' @source \url{http://saami.uni-freiburg.de/psdp/syntax}
+"psdp"

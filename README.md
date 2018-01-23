@@ -1,4 +1,4 @@
-# Public Domain Corpus Data for Uralic Languages, v. 0.1.1
+# Public Domain Corpus Data for Uralic Languages, v. 0.1.2
 
 This is an R data package that contains text corpus data from Uralic languages which are in the Public Domain. Individual subsets of the data are documented within the package. Here are [statistics and brief explanations](https://github.com/langdoc/uralic/blob/master/STATISTICS.md) for the subsets that are planned to be included. 
 
