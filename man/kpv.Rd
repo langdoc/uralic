@@ -4,12 +4,11 @@
 \name{kpv}
 \alias{kpv}
 \title{Public Domain Komi-Zyrian data}
-\format{Data frame with 78897 sentences.
+\format{Data frame with Komi-Zyrian data
 \describe{
+  \item{doc_id}{name of the text in original corpus}
   \item{sentence_id}{sentence id, unique within a text}
   \item{sentence}{sentence text}
-  \item{token}{token in lowercase}
-  \item{text_name}{name of the text in original corpus}
   ...
 }}
 \source{
@@ -23,8 +22,12 @@
 kpv
 }
 \description{
-A dataset containing 78897 sentences from Public Domain sources.
+A dataset containing sentences from Public Domain sources.
 Digitalized in Fenno-Ugrica and proofread in FU-Lab.
-Ivan Belykh's works made available by the author.
+Ivan Belykh's works made available by the author. Four Battles
+book proofread by Niko Partanen. Current version contains only data
+comparable with other languages, also the idea is to have all possible
+Komi-Zyrian data here and the sentence_id would tell which are
+matching.
 }
 \keyword{datasets}
