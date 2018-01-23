@@ -7,22 +7,23 @@ fb <- read_tsv("data-raw/four_battles.tsv",
                na = 'NA') %>%
   filter(! kpv == '') %>%
   mutate(sentence_id = glue('four_battles-{str_pad(rownames(.), width = 3, pad = 0)}')) %>%
-  select(sentence_id, everything())
+  select(sentence_id, everything()) %>%
+  mutate(document_id = "four_battles")
 
 kpv <- fb %>%
-  select(sentence_id, kpv) %>%
+  select(sentence_id, document_id, kpv) %>%
   as.data.frame()
 koi <- fb %>%
-  select(sentence_id, koi) %>%
+  select(sentence_id, document_id, koi) %>%
   as.data.frame()
 myv <- fb %>%
-  select(sentence_id, myv) %>%
+  select(sentence_id, document_id, myv) %>%
   as.data.frame()
 udm <- fb %>%
-  select(sentence_id, udm) %>%
+  select(sentence_id, document_id, udm) %>%
   as.data.frame()
 mhr <- fb %>%
-  select(sentence_id, mhr) %>%
+  select(sentence_id, document_id, mhr) %>%
   as.data.frame()
 
 devtools::use_data(kpv, overwrite = TRUE)
