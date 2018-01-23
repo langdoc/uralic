@@ -30,7 +30,7 @@ Gospel of Matthew by [Arvid Genetz](https://en.wikipedia.org/wiki/Arvid_Genetz) 
 
 ## sje-hun
 
-Pite Saami spoken texts with Hungarian translations collected and published by [Ignác Halász](https://hu.wikipedia.org/wiki/Hal%C3%A1sz_Ign%C3%A1c). The texts were digitalized and aligned by the [Pite Saami Documentation Project](http://saami.uni-freiburg.de/psdp/). 
+Pite Saami spoken texts with Hungarian translations collected and published by [Ignác Halász](https://hu.wikipedia.org/wiki/Hal%C3%A1sz_Ign%C3%A1c). The texts were digitalized by the [Pite Saami Documentation Project](http://saami.uni-freiburg.de/psdp/); annotations are being added in that project (and its descendants) on an on-going basis. 
 
 ## sms
 
