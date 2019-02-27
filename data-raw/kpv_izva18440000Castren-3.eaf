@@ -3891,7 +3891,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="pos@bundle:Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(word)@bundle:Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(word)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonet-UPA@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orth-origT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth-orig@bundle:Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a141" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Bur olemöj, bur ajöj!</ANNOTATION_VALUE>
@@ -4251,6 +4251,7 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="noteT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-upaT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonol-cyrT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orth-origT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translit-latT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-ipaT" TIME_ALIGNABLE="false"/>

@@ -762,7 +762,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="pos@bundle:Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(word)@bundle:Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(word)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orth(orig)T" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth(orig)@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orth-origT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth-orig@bundle:Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Rödimajaöj čöskyd jöla mamöj!</ANNOTATION_VALUE>
@@ -853,7 +853,7 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lemmaT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morphT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="pos" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="posT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orth(orig)T" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orth-origT" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
