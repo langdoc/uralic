@@ -31,8 +31,8 @@ mhr <- fb %>%
   rename(sentence = mhr) %>%
   as.data.frame()
 
-devtools::use_data(kpv, overwrite = TRUE)
-devtools::use_data(koi, overwrite = TRUE)
-devtools::use_data(myv, overwrite = TRUE)
-devtools::use_data(udm, overwrite = TRUE)
-devtools::use_data(mhr, overwrite = TRUE)
+usethis::use_data(kpv, overwrite = TRUE)
+usethis::use_data(koi, overwrite = TRUE)
+usethis::use_data(myv, overwrite = TRUE)
+usethis::use_data(udm, overwrite = TRUE)
+usethis::use_data(mhr, overwrite = TRUE)

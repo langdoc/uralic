@@ -34,4 +34,4 @@ psdp <- read_xml(elan_file) %>%
   select(doc_id, sentence_id, sentence, sentence_eng, sentence_hun, sentence_orig_orth) %>%
   as.data.frame()
 
-devtools::use_data(psdp, overwrite = TRUE)
+usethis::use_data(psdp, overwrite = TRUE)
