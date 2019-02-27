@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Public Domain Data for Uralic Languages, v. 0.1.2
+# Public Domain Data for Uralic Languages, v. 0.1.3
 
 This is an R data package that contains text corpus data from Uralic languages which are in the Public Domain. Individual subsets of the data are documented within the package. Here are [statistics and brief explanations](https://github.com/langdoc/uralic/blob/master/STATISTICS.md) for the subsets that are planned to be included. 
 
@@ -46,7 +46,7 @@ uralic::kpv %>%
 
 Please notice that providing proper references to the sources used is clearly demanded by good scientific practice, even when using Public Domain data. The difference between Public Domain data and virtually any other data source is that the citation is not demanded from a legal perspective, but can and should be justified and rationalized by what is reasonable.
 
-Niko Partanen, Michael Rießler, Joshua Wilbur (2018). *Public Domain Corpus Data for Uralic Languages.* R data package. Version 0.1.2. https://github.com/langdoc/uralic/.
+Niko Partanen, Michael Rießler, Joshua Wilbur (2019). *Public Domain Corpus Data for Uralic Languages.* R data package. Version 0.1.3. https://github.com/langdoc/uralic/.
 
 Explanations how to cite single example sentences or larger subsets of the data are coming soon. Ideally there would be an R function that would spill out citations by id. Individual books will likely have several sources that would be important to cite, among these the original collection of the [National Library of Finland](https://fennougrica.kansalliskirjasto.fi/). Individual book sitations will look something like this.
 

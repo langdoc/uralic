@@ -1,5 +1,5 @@
 
-# Public Domain Data for Uralic Languages, v. 0.1.2
+# Public Domain Data for Uralic Languages, v. 0.1.3
 
 This is an R data package that contains text corpus data from Uralic
 languages which are in the Public Domain. Individual subsets of the data
@@ -43,12 +43,12 @@ devtools::install_github("langdoc/uralic")
 
 ``` r
 library(tidyverse, warn.conflicts = FALSE)
-#> ── Attaching packages ───────────────────────────────────── tidyverse 1.2.0 ──
-#> ✔ ggplot2 2.2.1.9000     ✔ purrr   0.2.4     
-#> ✔ tibble  1.3.4          ✔ dplyr   0.7.4     
-#> ✔ tidyr   0.7.2          ✔ stringr 1.2.0     
-#> ✔ readr   1.1.1          ✔ forcats 0.2.0
-#> ── Conflicts ──────────────────────────────────────── tidyverse_conflicts() ──
+#> ── Attaching packages ────────────────────
+#> ✔ ggplot2 3.1.0     ✔ purrr   0.2.5
+#> ✔ tibble  1.4.2     ✔ dplyr   0.7.8
+#> ✔ tidyr   0.8.2     ✔ stringr 1.3.1
+#> ✔ readr   1.3.1     ✔ forcats 0.3.0
+#> ── Conflicts ──── tidyverse_conflicts() ──
 #> ✖ dplyr::filter() masks stats::filter()
 #> ✖ dplyr::lag()    masks stats::lag()
 library(uralic)
@@ -81,8 +81,8 @@ other data source is that the citation is not demanded from a legal
 perspective, but can and should be justified and rationalized by what is
 reasonable.
 
-Niko Partanen, Michael Rießler, Joshua Wilbur (2018). *Public Domain
-Corpus Data for Uralic Languages.* R data package. Version 0.1.2.
+Niko Partanen, Michael Rießler, Joshua Wilbur (2019). *Public Domain
+Corpus Data for Uralic Languages.* R data package. Version 0.1.3.
 <https://github.com/langdoc/uralic/>.
 
 Explanations how to cite single example sentences or larger subsets of
