@@ -8,11 +8,11 @@ explanations](https://github.com/langdoc/uralic/blob/master/STATISTICS.md)
 for the subsets that are planned to be included.
 
 This package is in an extremely early testing stage and it is not yet
-supposed to be used in actual research. Currently, mostly Public
-Domain data from Zyrian Komi is included, and adding that into the package is one of
-the next steps. The whole current setup is experimental and may change
-any moment. We will also add an explicit documentation concerning how to
-use and cite the whole data set or individual resources.
+supposed to be used in actual research. Currently, mostly Public Domain
+data from Zyrian Komi is included, and adding that into the package is
+one of the next steps. The whole current setup is experimental and may
+change any moment. We will also add an explicit documentation concerning
+how to use and cite the whole data set or individual resources.
 
 This version contains data from several Uralic languages, and those are
 parallel alignable by `sentence_id`. If there are no matching id’s found
@@ -32,7 +32,7 @@ moment only some of these are proofread.
 
 ## Installation
 
-You can install uralic from github with:
+You can install `uralic` from GitHub with:
 
 ``` r
 # install.packages("devtools")
@@ -71,6 +71,8 @@ uralic::kpv %>%
 | Белӧйяс — найӧ вӧлі тыдалӧны кипыдӧс вылын моз — скачитісны овраг дорӧдз, коді воӧ вӧлі степь кузя веськыда станция дорӧ, и ряд бӧрся ряд вошисны сэтчӧ. |
 | Туйыс на водзын беззащитнӧй станцияӧ вӧлі восьса.                                                                                                        |
 | Но кӧн жӧ вӧлі станциялӧн охрана?                                                                                                                        |
+
+## Citation
 
 ## Citation
 
