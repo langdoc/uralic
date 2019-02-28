@@ -8,17 +8,17 @@ explanations](https://github.com/langdoc/uralic/blob/master/STATISTICS.md)
 for the subsets that are planned to be included.
 
 This package is in an extremely early testing stage and it is not yet
-supposed to be used in actual research. Currently there is most Public
-Domain data from Komi-Zyrian, and adding that into the package is one of
+supposed to be used in actual research. Currently, mostly Public
+Domain data from Zyrian Komi is included, and adding that into the package is one of
 the next steps. The whole current setup is experimental and may change
 any moment. We will also add an explicit documentation concerning how to
 use and cite the whole data set or individual resources.
 
 This version contains data from several Uralic languages, and those are
-parallel alignable by `sentence_id`. If there are no matching id’s
+parallel alignable by `sentence_id`. If there are no matching id’s found
 between the datasets, then that means there are no parallel matches for
 that sentence between some of the languages. The book used for testing,
-Four Battles is available in
+Four Battles, is available in
 [Erzya](http://urn.fi/URN:NBN:fi-fe2014082633380),
 [Moksha](http://urn.fi/URN:NBN:fi-fe2014090944573), [Komi
 Zyrian](http://urn.fi/URN:NBN:fi-fe2014102045428), [Komi
@@ -91,7 +91,7 @@ would spill out citations by id. Individual books will likely have
 several sources that would be important to cite, among these the
 original collection of the [National Library of
 Finland](https://fennougrica.kansalliskirjasto.fi/). Individual book
-sitations will look something like this.
+citations will look something like this.
 
 > Успенский, Л 1939 Ныл боевой случай. Москва: Молодежын Всесоюзный
 > Ленинский Коммунистический Союзшын Центральный Комитетше: Йоча
@@ -99,7 +99,7 @@ sitations will look something like this.
 > <http://urn.fi/URN:NBN:fi-fe2014091844781>
 
 Of course, as this is Public Domain data, the exact data citation can be
-rationalized case by case basis.
+rationalized on a case by case basis.
 
 # Code of conduct
 
